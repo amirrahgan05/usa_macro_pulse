@@ -1,0 +1,45 @@
+# Automated Financial Data Intelligence Platform
+
+An end-to-end data-driven system that collects, cleans, analyzes, and predicts financial asset prices — fully automated and updated daily.
+
+## 🚀 What This Project Does
+- Automatically fetches daily prices of major assets (e.g. cryptocurrencies, commodities, stocks)
+- Builds clean historical datasets (last 30 days)
+- Uses machine learning to forecast daily prices for the next 30 days
+- Provides prediction ranges (min / max) instead of unrealistic single-point values
+- Visualizes all data through interactive charts and tables on a live website
+- Updates itself every day without manual intervention
+
+## 🧠 Why It Matters
+Most decision-makers don’t care about code — they care about clarity, trends, and foresight.  
+This system turns raw market data into actionable insights.
+
+## 🛠 Tech Stack
+- Python (Data processing & ML)
+- SQL (Data storage)
+- ETL Pipelines
+- Machine Learning (Time-series forecasting)
+- HTML / CSS / JavaScript (Frontend visualization)
+- Automated scheduling (Daily updates)
+
+## 📊 Key Features
+- Fully automated data pipeline
+- Clean and structured datasets
+- Predictive modeling with uncertainty awareness
+- Real-time dashboard experience
+- Scalable system design
+
+## 🧩 Use Cases
+- Market trend analysis
+- Financial dashboards
+- Data-driven decision support
+- Custom analytics platforms
+
+## 📸 Screenshots
+_(Add screenshots of dashboards and charts here)_
+
+## ⚠️ Disclaimer
+Predictions are probabilistic and intended for analytical purposes only — not financial advice.
+
+## 📬 Contact
+If you're interested in building data-powered systems or custom analytics solutions, feel free to reach out.
