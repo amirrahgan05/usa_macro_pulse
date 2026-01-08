@@ -1,0 +1,63 @@
+
+# Macro Pulse Dashboard
+
+## Overview
+Macro Pulse Dashboard is a full data pipeline and interactive dashboard project that demonstrates end-to-end data engineering and time series forecasting skills.  
+It collects, processes, forecasts, and visualizes financial and macroeconomic data from multiple sources.
+
+## Features
+- **Data Collection**:  
+  - Stocks: Apple (AAPL), Microsoft (MSFT)  
+  - Commodities: Gold (GC=F), Crude Oil (CL=F)  
+  - Index: S&P 500 (^GSPC)  
+  - Cryptocurrencies: Bitcoin, Ethereum, Solana  
+
+- **Data Processing**:  
+  - Standardized daily frequency (fills missing days like weekends/holidays)  
+  - Calculates daily, weekly, and monthly percentage changes  
+  - Cleans and prepares data for forecasting  
+
+- **Forecasting**:  
+  - ARIMA model for 30-day ahead forecasts  
+  - Confidence intervals (upper/lower bounds)  
+  - Forecasts saved per symbol in `data/forecasted`  
+
+- **Dashboard (Dash + Plotly)**:  
+  - Interactive selection of symbol and date range  
+  - Actual vs Forecast chart with confidence bands  
+  - Daily, weekly, and monthly % change charts  
+  - Clear status messages and user-friendly layout  
+## Automation
+This project includes an automation feature that allows the data pipeline and forecasting process to run on a scheduled basis. Using simple schedulers (e.g., APScheduler or schedule), the system can automatically update data and generate new forecasts every day without manual execution. This makes the dashboard more reliable and closer to a real-world product.
+
+## Project Structure
+## How to Run
+1. Collect data:
+   python src/collect_data.py
+2. 	Process data:
+   python src/processed_data.py
+3. 	Generate forecasts:
+   python src/forecast.py
+4. 	Launch dashboard:
+   python src/app.py
+5. Open browser at http://127.0.0.1:8050
+## Dashboard Preview
+
+Here are four screenshots showcasing the dashboard:
+
+[1](images/1.png)
+
+[2](images/2.png)
+
+[3](images/3.png)
+
+[4](images/4.png)
+
+## Why This Project Matters
+This project demonstrates:
+- End-to-end data pipeline design
+- Time series forecasting with ARIMA
+- Interactive visualization with Dash
+- Handling diverse data sources (stocks, commodities, index, crypto)
+
+It is an ideal portfolio project to showcase skills in **data engineering, analytics, and visualization**.
